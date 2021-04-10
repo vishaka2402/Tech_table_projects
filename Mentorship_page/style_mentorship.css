@@ -1,0 +1,219 @@
+body{
+    background-color:rgb(227, 229, 231);
+}
+.main-header{
+    height: 70px;
+    transition: all 0.7s;
+    z-index: 1000;
+    /* transition: all 0.5s; */
+    padding: 40px 20;
+    background: #fff;
+    box-shadow: 5px 5px 3px grey;
+  }
+  .img-tt{
+    margin-left: 75%;
+  
+  }
+  .main{
+    background-color: rgb(42, 61, 228);
+  }
+
+h1{
+    font-size:45px;
+    padding: 0;
+    margin-top: 20 px;
+    color:white;
+    align-content: center;
+    text-align: center;
+    font-family:monospace;
+}
+img{
+    margin-left: 25%;
+    box-shadow:5px 5px 3px grey;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+
+}
+h3{
+    color:  rgb(53, 37, 192);
+    margin-left: 20px;
+    font-size: 35px;
+
+}
+i{
+    color: white;
+    text-align: center;
+}
+.row row-cols-1 row-cols-md-2 g-4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    align-content: center;
+    background-color: cornflowerblue;
+}
+.container1{
+    padding: 20px;
+   
+    margin-bottom: 20px;
+}
+h4{
+    color:black;
+    text-align: center;
+}
+.description{
+    text-align: center;
+    color: black;
+}
+.card{
+    background-color:whitesmoke;
+    box-shadow:5px 5px 3px grey;
+    border-radius: 10px;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+}
+
+
+a:hover{
+  background-color: white;
+}
+form{
+    padding: 20px;
+    width:50%;
+    height:50%;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    color:black;
+    margin-left:25%;
+}
+input,select,textarea{
+    box-shadow: 3px 3px 2px grey;
+}
+.Testimonials{
+  background-color: cadetblue;
+}
+.test_container {
+    width: 90%;
+    border: 2px solid #ccc;
+    background-color: rgb(202, 241, 248);
+    margin:20px;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    margin-left: 40px;
+    box-shadow: 5px 5px 3px grey;
+  }
+  .test_header{
+    color:  rgb(53, 37, 192);
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  .test_desp{
+    margin-left: 20px;
+    font-size: 15px;
+    color: black;
+  }
+  
+  /* Clear floats after containers */
+  .test_container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .test_container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .test_container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  footer{
+    background-color: black;
+    color: white;
+  }
+  .text-uppercase,.Contact-header{
+    color: white;
+  }
+  .custom{
+    width:30%;
+    margin-left: 65%;
+    box-sizing: content-box;
+    color:white;
+    background-color: rgb(38, 52, 235);
+    border-color:black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: 0.5s;
+    
+
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .test_container {
+      text-align: center;
+    }
+  
+    .test_container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
+  @media (max-width: 769px) {
+    body{
+      width:100%;
+    }
+    .img-tt{
+      margin-left: 30%;
+      
+    }
+    .main-header{
+      margin-right: 0%;
+    }
+
+    h2{
+      text-align: center;
+    }
+    img{
+      text-align: center;
+      align-content: center;
+      width: 50%;
+      
+    }
+    h1{
+      margin-right: 0%;
+
+    }
+    .row row-cols-1 row-cols-md-2 g-4{
+      align-content: center;
+      text-align: center;
+      margin-left: 20%;
+      width:50%;
+    }
+    form{
+      width:70%;
+      margin-left: 15%;
+    }
+   
+  }
+ 
+
+
